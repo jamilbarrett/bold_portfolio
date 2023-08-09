@@ -1,21 +1,20 @@
 import { NavLink } from 'react-router-dom'
 
-function Header(props) {
-    return (
-        <header className="row justify-between align-center">
-      <h3>Note App</h3>
+function Header() {
+  return (
+    <header>
+      <h3>I am Jamil</h3>
 
+
+{/* Navigation Links to guide visitor to different sections */}
       <nav>
-        <NavLink to="/">Home</NavLink>
-        {props.state.user ? (
-          <NavLink to="/dashboard">Dashboard</NavLink>
-        ) : (
-          <NavLink to="/auth">Login or Register</NavLink>
-        )}
-
+        <NavLink to="/about">About</NavLink>
+        <NavLink to="/portfolio">Portfolio</NavLink>
+        <NavLink to="/contact">Contact</NavLink>
+        <NavLink to="/resume">Resume</NavLink>
       </nav>
     </header>
-    )
+  )
 }
 
 export default Header
