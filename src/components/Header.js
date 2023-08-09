@@ -1,13 +1,21 @@
-import { Navlink} from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
-function Header () {
+function Header(props) {
     return (
-        <header>
-            <nav>
-                <Navlink to="/">Home</Navlink>
-            </nav>
+        <header className="row justify-between align-center">
+      <h3>Note App</h3>
 
+      <nav>
+        <NavLink to="/">Home</NavLink>
+        {props.state.user ? (
+          <NavLink to="/dashboard">Dashboard</NavLink>
+        ) : (
+          <NavLink to="/auth">Login or Register</NavLink>
+        )}
 
-        </header>
+      </nav>
+    </header>
     )
 }
+
+export default Header
