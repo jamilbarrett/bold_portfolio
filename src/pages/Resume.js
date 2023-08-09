@@ -1,4 +1,4 @@
-function Project () {
+function Resume () {
     return (
         <>
         <h1>The Works</h1>
@@ -8,4 +8,4 @@ function Project () {
     )
 }
 
-export default Project
+export default Resume
