@@ -5,9 +5,36 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url(./logo/city.png);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 3px;
+}
+nav a {
+  margin-right: 20px; 
+}
+
+
+footer {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  color: white;
+  padding: 20px;
+  margin-top: auto;
+  width: 100%; 
+}
+
