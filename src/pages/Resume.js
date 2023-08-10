@@ -1,11 +1,12 @@
 function Resume() {
     return (
-        <>
-            <div className="resumeContainer">
-            <h1 className="centerh1">Resume</h1>
+        <div className="resumeContainer">
+            <h1 className="centerh1">Hey Look its my Resume</h1>
             <section id="experience">
                 <h3>Work Experience</h3>
-                <p>Keller Williams
+
+                <p>
+                    Keller Williams
                     <ul>
                         <li>Achieved $18.9 million in gross sales earning, ‘Rookie of the Year’ and ‘Agent of the Month’</li>
                         <li>Prepares representation contracts, exclusive right to sell agreements and residential/commercial leases</li>
@@ -13,7 +14,8 @@ function Resume() {
                         <li>Assists buyers & sellers with the purchase and sale of properties from conceptualization to implementation</li>
                     </ul>
                 </p>
-                <p>Tech Briefs Media Group
+                <p>
+                    Tech Briefs Media Group
                     <ul>
                         <li>Aggregated and translated details of analytic data on subscriber information upwards of 1 million customers to
                             support a large network of business partners across the Tech Briefs Media Group</li>
@@ -27,14 +29,20 @@ function Resume() {
                     </ul>
                 </p>
             </section>
-            <section id="skills">
+            <section id="education-skills">
+                <h3>Education</h3>
 
+                <p>
+                    Rutgers University: Full Stack Software Development
+                    Aug 2023
+                </p>
+                <p>
+                    Hofstra University: Bachelor's in Business Administration 
+                    Dec 2012
+                </p>
             </section>
-
-
-        </div >
-        </>
-    )
+        </div>
+    );
 }
 
-export default Resume
+export default Resume;
