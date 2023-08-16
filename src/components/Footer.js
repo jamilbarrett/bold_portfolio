@@ -1,13 +1,14 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 function Footer() {
     return (
         <footer className="footer">
-            <a href="https://github.com/jamilbarrett"><FontAwesomeIcon icon={faGithub} />
+            <a href="https://github.com/jamilbarrett">
+                <FontAwesomeIcon icon={faGithub} className="github-icon" />
             </a>
-       </footer>
-    )
+        </footer>
+    );
 }
 
-export default Footer
+export default Footer;
