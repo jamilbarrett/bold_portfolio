@@ -1,5 +1,4 @@
 import React from 'react';
-import './Portfolio.css'; // Assuming you have a separate CSS file for styling
 
 function Portfolio() {
   return (
@@ -57,6 +56,29 @@ function Portfolio() {
                 className="w-full h-40 object-cover rounded-lg"
               />
               <div className="image-title">Ecomm Backend</div>
+            </div>
+          </a>
+        </div>
+        <div className="border border-white rounded-lg">
+          <a href="https://jamilbarrett.github.io/words_will_pass/d" target="_blank" rel="noopener noreferrer">
+            <div className="image-container">
+              <img
+                src="passgen.png"
+                alt="password generator"
+                className="w-full h-40 object-cover rounded-lg"
+              />
+              <div className="image-title">Password Generator</div>
+            </div>
+          </a>
+        </div><div className="border border-white rounded-lg">
+          <a href="https://github.com/jamilbarrett/digi_weather" target="_blank" rel="noopener noreferrer">
+            <div className="image-container">
+              <img
+                src="digiw.png"
+                alt="weather"
+                className="w-full h-40 object-cover rounded-lg"
+              />
+              <div className="image-title">Digiweather</div>
             </div>
           </a>
         </div>
