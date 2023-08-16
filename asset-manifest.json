@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/bold_portfolio/static/css/main.b40beefa.css",
+    "main.js": "/bold_portfolio/static/js/main.9b18a788.js",
+    "index.html": "/bold_portfolio/index.html",
+    "main.b40beefa.css.map": "/bold_portfolio/static/css/main.b40beefa.css.map",
+    "main.9b18a788.js.map": "/bold_portfolio/static/js/main.9b18a788.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b40beefa.css",
+    "static/js/main.9b18a788.js"
+  ]
+}
